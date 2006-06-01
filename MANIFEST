@@ -3,3 +3,4 @@ MANIFEST
 Makefile.PL
 Modlist.pm
 README
+META.yml                                 Module meta-data (added by MakeMaker)
