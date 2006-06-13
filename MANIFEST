@@ -3,4 +3,6 @@ MANIFEST
 Makefile.PL
 Modlist.pm
 README
+t/pod.t
+t/pod_coverage.t
 META.yml                                 Module meta-data (added by MakeMaker)
