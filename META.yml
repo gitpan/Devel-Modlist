@@ -1,10 +1,24 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Devel-Modlist
-version:      0.7
-version_from: Modlist.pm
-installdirs:  site
+---
+name: Devel-Modlist
+version: 0.71
+author:
+  - 'Randy J. Ray <rjray@blackperl.com>'
+abstract: Create lists of modules used by applications or other modules
+license: artistic
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
 requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+  CPAN: 1.8
+  perl: 5.6.0
+build_requires:
+  Test::More: 0
+provides:
+  Devel::Modlist:
+    file: lib/Devel/Modlist.pm
+    version: 0.71
+  Devel::Modlist::QuietCPAN:
+    file: lib/Devel/Modlist.pm
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

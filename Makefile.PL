@@ -1,10 +1,5 @@
-use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
+#!/usr/bin/perl
 
-WriteMakefile(
-              NAME         => 'Devel::Modlist',
-              VERSION_FROM => 'Modlist.pm', # finds $VERSION
-              clean        => { FILES =>
-                                'pod2html-* *.html blibdirs META.yml' },
-             );
+use Module::Build::Compat;
+Module::Build::Compat->run_build_pl(args => \@ARGV);
+Module::Build::Compat->write_makefile();

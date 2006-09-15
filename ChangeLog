@@ -1,5 +1,10 @@
 Revision history for Perl extension Devel::Modlist.
 
+0.71	Thu Sep 14 20:23:19 MDT 2006
+
+	Migrated the build process from ExtUtils::MakeMaker to Module::Build.
+	No change in functionality of the code itself.
+
 0.7	Tue Jun 13 16:01:32 MDT 2006
 
 	The 0.6 release failed to deliver an updated README, ChangeLog, or

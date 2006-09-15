@@ -1,8 +1,8 @@
-#
 # Read the manual page from the pod at end for details.
 #
 # Generate a list of modules used by a perl script that has just run.
 #
+# $Id: /Devel-Modlist/local/lib/Devel/Modlist.pm 518 2006-09-15T02:22:06.942952Z rjray  $
 package Devel::Modlist;
 
 require 5.6.0;
@@ -10,7 +10,7 @@ use strict;
 
 # Suppress warnings without using the vars pragma
 our ($VERSION, $reported, %options);
-$VERSION = '0.7';
+$VERSION = '0.71';
 
 BEGIN
 {

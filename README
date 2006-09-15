@@ -1,6 +1,6 @@
 Devel::Modlist - Show the modules, with version number, used by a script
 
-Version: 0.7 (see ChangeLog for full history)
+Version: 0.71 (see ChangeLog for full history)
 
 WHAT IS IT
 
@@ -26,17 +26,16 @@ It can also be used via -M:
 
 BUILDING/INSTALLING
 
-The package is designed to configure and build like a typical Perl module.
-To build:
+The package uses Module::Build. To build and install, do:
 
-        perl Makefile.PL
-        make && make test
+        perl Build.PL
+        ./Build && ./Build test
 
-(at present, there are no tests defined for Devel::Modlist)
+(at present, the only Devel::Modlist tests are for the documentation)
 
 To install:
 
-        make install
+        ./Build install
 
 You may need super-user priviledges to install.
 
