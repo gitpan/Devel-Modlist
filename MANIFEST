@@ -1,4 +1,3 @@
-Build.PL
 ChangeLog
 MANIFEST
 MANIFEST.SKIP
@@ -8,5 +7,5 @@ lib/Devel/Modlist.pm
 t/00_signature.t
 t/pod.t
 t/pod_coverage.t
-META.yml
-SIGNATURE    Added here by Module::Build
+META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
