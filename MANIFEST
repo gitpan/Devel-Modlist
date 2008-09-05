@@ -7,5 +7,5 @@ lib/Devel/Modlist.pm
 t/00_signature.t
 t/pod.t
 t/pod_coverage.t
-META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)
+META.yml
+SIGNATURE    Added here by Module::Build
